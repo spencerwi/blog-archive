@@ -1,3 +1,4 @@
 name: Future Perfect (Archive)
+baseurl: /blog-archive
 markdown: redcarpet
 pygments: true
