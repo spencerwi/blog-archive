@@ -200,12 +200,12 @@ header nav li {
     position: relative;
     bottom: 24px;
     float: left;
-    content: url('/images/openquote_small.png');
+    content: url('../images/openquote_small.png');
 }
 
 #leftcolumn .post .postcontent blockquote:after {
     float: right;
-    content: url('/images/closequote_small.png');
+    content: url('../images/closequote_small.png');
     position: relative;
     top: -36px;
 }
@@ -274,12 +274,12 @@ header nav li {
         position: relative;
         bottom: 24px;
         float: left;
-        content: url('/images/openquote_small.png');
+        content: url('..//images/openquote_small.png');
     }
 
     #rightcolumn #twitter #twitterStatus:after {
         float: right;
-        content: url('/images/closequote_small.png');
+        content: url('../images/closequote_small.png');
     }
 
 footer {
@@ -312,7 +312,7 @@ a:hover {
 }
 
 a.rss:after {
-    content: url('/images/rss-14x14.png');
+    content: url('../images/rss-14x14.png');
     margin-left: 0.25em;
     vertical-align: middle;
 }
