@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <link rel="stylesheet" href="/css/v2.css">
+        <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English' rel='stylesheet' type='text/css'>
+
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+  		<meta name=description content="I'm Spencer Williams, a programmer, a college student, and a joyful bondservant of the God who redeemed me despite my sin. It is that sin that I daily seek my Savior's strength and aid to overcome." />
+
+    </head>
+    <body>
+        <header>
+            <p>
+                <a class="title" href="/">{{ site.name }}</a>
+            </p>
+            <div id="fulltitle">
+                <i>an</i>
+                <br />
+                <span class="small-caps">internet blog</span>
+                <br />
+                <i>by</i>
+                <span class="small-caps">Spencer Williams</span>
+            </div>
+            <hr />
+        </header>
+        <section id="maincontent">
+            <div id="rightcolumn"> </div>
+            <div id="leftcolumn">
+                {{ content }}
+            </div>
+            <div id="empty_thing">
+        </section>
+        <footer>
+            <hr />
+            Design and content (unless otherwise specified) by Spencer Williams
+        </footer>
+    </body>
+</html>

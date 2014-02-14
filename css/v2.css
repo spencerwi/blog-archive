@@ -1,0 +1,583 @@
+/* Modernizr stuff -- for non-HTML5 compatibility */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFCF0;
+    margin-left: auto;
+    margin-right: auto;
+/*    font-family: Georgia, serif; 
+    font-family:'Bookman Old Style',Bookman,'URW Bookman L','Palatino Linotype',serif; */
+    font-family: Cambria,'Palatino Linotype','Book Antiqua','URW Palladio L',serif;
+}
+
+header {
+    width: 70%;
+    font-family: "IM Fell English italic";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header.no-fontface {
+    font-family: 'Georgia', serif;
+}
+
+header .title, .small-caps {
+    font-family: "IM Fell English SC";
+}
+
+header.no-fontface .title, .no-fontface .small-caps {
+    font-family: 'Georgia', serif;
+}
+
+header .small-caps {
+    font-size: 1.3em;
+}
+
+header .title {
+    font-size: 3.5em;
+    text-decoration: none;
+}
+
+
+header nav {
+    font-family: "IM Fell English SC";
+    font-size: 1.3em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+}
+
+header.no-fontface nav {
+    font-family: 'Georgia', serif;
+}
+
+header nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+#maincontent {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+/*    background-color: #F2EED8; */ 
+    background-color: #F2F2E3;
+    background-color: inherit;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#empty_thing {
+    clear: both;
+    height: 1px;
+}
+
+#leftcolumn {
+    float: left;
+    width: 80%;
+    border-right: 1px black dashed;
+    height: 100%;
+}
+
+#leftcolumn .post {
+    width: 95%;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+#leftcolumn .post .headline {
+    text-align: center;
+    font-family "IM Fell English";
+    font-size: 2.3em;
+    text-decoration: none;
+    margin-bottom: 0.2em;
+}
+
+#leftcolumn.no-fontface .post .headline {
+    font-family: 'Georgia', serif;
+}
+
+#leftcolumn .post .headline a {
+    font-family: "IM Fell English";
+    text-decoration: none;
+}
+
+#leftcolumn.no-fontface .post .headline a {
+    font-family: 'Georgia', serif;
+}
+
+#leftcolumn .post .postinfo {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#leftcolumn .post .postinfo .author {
+    font-family: "IM Fell English SC", serif;
+    font-size: 1.1em;
+}
+
+#leftcolumn.no-fontface .post .author a {
+    font-family: 'Georgia', serif;
+}
+
+#leftcolumn .post .postinfo .author:before {
+    font-family: "IM Fell English italic";
+    content: "by ";
+    font-size: 0.9em;
+}
+
+#leftcolumn.no-fontface .post .author:before {
+    font-family: 'Georgia', serif;
+    content: "by ";
+}
+
+#leftcolumn .post .postinfo time:before {
+    font-family: "IM Fell English italic";
+    content: "on ";
+    font-size: 0.9em;
+}
+
+#leftcolumn.no-fontface .post .postinfo time:before {
+    font-family: 'Georgia', serif;
+    content: "on ";
+}
+
+#leftcolumn .post .postinfo time {
+    font-family: "IM Fell English SC";
+    font-size: 1.1em;
+    float: right;
+}
+
+#leftcolumn .post .postimg {
+    float: right;
+	position: relative;
+	vertical-align: middle; 
+    overflow: hidden;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: 0.7em;
+    margin-left: 0.5em;
+}
+
+#leftcolumn .post .postcontent {
+    line-height: 120%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: "Georgia", serif;
+}
+
+#leftcolumn .post .postcontent blockquote {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: "IM Fell English", serif
+}
+
+#leftcolumn .post .postcontent blockquote:before {
+    position: relative;
+    bottom: 24px;
+    float: left;
+    content: url('/images/openquote_small.png');
+}
+
+#leftcolumn .post .postcontent blockquote:after {
+    float: right;
+    content: url('/images/closequote_small.png');
+    position: relative;
+    top: -36px;
+}
+
+#leftcolumn .post .jump {
+    clear: both;
+    width: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#leftcolumn .post .bottombar {
+    width: 80%;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#leftcolumn .post .bottombar a {
+    color: black;
+}
+
+    #comments #newComment {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comments #newComment #cForm {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comments #newComment #cFormTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#rightcolumn {
+    float: right;
+    width: 18%;
+    /* margin-left: 1em;*/
+    height: 100%;
+}
+
+    #rightcolumn #twitter {
+        font-family: "IM Fell English SC";
+        border-bottom: 1px dashed black;
+        padding-bottom: 1em;
+    }
+
+    #rightcolumn #twitter #twitterStatus {
+        font-family: "IM Fell English";
+        font-size: 0.9em;
+    }
+
+    #rightcolumn #twitter #twitterStatus:before {
+        position: relative;
+        bottom: 24px;
+        float: left;
+        content: url('/images/openquote_small.png');
+    }
+
+    #rightcolumn #twitter #twitterStatus:after {
+        float: right;
+        content: url('/images/closequote_small.png');
+    }
+
+footer {
+    background-color: #F2F2E3;
+    background-color: inherit;
+    clear: both;
+    padding-top: 1px;
+    text-align: center;
+    font-family: "IM Fell English SC";
+    font-size: 1em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
+
+a {
+    /* text-decoration: none;*/
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    /* color: darkgrey;*/
+}
+
+a.rss:after {
+    content: url('/images/rss-14x14.png');
+    margin-left: 0.25em;
+    vertical-align: middle;
+}
+
+.noposts
+{
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+#pagination
+{    
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+	#pagination .pageNum
+    {
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+    }
+
+	.PageLeft
+	{
+	    float:left; 
+	}
+
+	.hidden
+	{
+	    display:none;
+	}
+
+	.empty
+	{
+	    width: 0em;
+	}
+
+	.PageRight
+	{
+	    float:right; 
+	}
+
+#comments {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comments #newComment {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id_name, #id_url {
+    margin-left: 0;
+    padding-left: 0;
+    width: 80%;
+}
+
+#comment {
+    height: 15em;
+    width: 30em;
+    margin: 10px;
+}
+
+#comment_preview {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#four-oh-four-header {
+    padding-top: 2.5em;
+}
+
+#four-oh-four-text {
+    text-align: center;
+}
+
+.haiku {
+    font-family: "IM Fell English SC";
+}
+
+/*****************************/
+/* tablet display tweaks */
+/*****************************/
+@media screen and (max-width: 768px) {
+
+    header .title {
+        font-size: 2.5em;
+    }
+
+    header #fulltitle {
+        display: none;
+    }
+
+    header nav { 
+        font-size: 1em;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav li {
+        display: inline;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+    #maincontent {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #rightcolumn {
+        display: none;
+        border-left: 0px;
+    }
+
+    #leftcolumn {
+        border-right: 0px;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    #leftcolumn .post .headline {
+        font-size: 1.7em;
+    }
+
+    #leftcolumn .post .postinfo {
+        font-size: 0.8em;
+    }
+
+    #leftcolumn .post .postcontent {
+        font-size: 0.9em;
+
+    }
+
+    #leftcolumn .post .postcontent .postimg {
+        clear: both;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #leftcolumn .post .bottombar {
+        font-size: 0.8em;
+    }
+
+    #comments {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8em;
+    }
+
+    #comments #newComment {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #id_name, #id_url {
+        margin-left: 0;
+        padding-left: 0;
+        width: 80%;
+    }
+
+    #comment {
+        height: 10em;
+        width: 20em;
+        margin: 5px;
+    }
+
+    footer {
+        font-size: 0.8em;
+        width: 80%;
+    }
+}
+
+/*****************************/
+/* mobile display tweaks */
+/*****************************/
+@media screen and (max-width: 480px) {
+
+    header .title {
+        font-size: 1.9em;
+    }
+
+    header #fulltitle {
+        display: none;
+    }
+
+    header nav { 
+        font-size: 0.8em;
+    }
+
+    header nav li {
+        display: block;
+    }
+
+    #maincontent {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #rightcolumn {
+        display: none;
+        border-left: 0px;
+    }
+
+    #leftcolumn {
+        border-right: 0px;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    #leftcolumn .post .headline {
+        font-size: 1.5em;
+    }
+
+    #leftcolumn .post .postinfo {
+        font-size: 0.6em;
+    }
+
+    #leftcolumn .post .postcontent {
+        font-size: 0.8em;
+
+    }
+
+    #leftcolumn .post .postcontent .postimg {
+        clear: both;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #leftcolumn .post .bottombar {
+        font-size: 0.6em;
+    }
+
+    #comments {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8em;
+    }
+
+    #comment {
+        height: 6em;
+        width: 10em;
+        margin: 5px;
+    }
+
+    footer {
+        font-size: 0.6em;
+        width: 80%;
+    }
+}
+
+
